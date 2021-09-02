@@ -83,4 +83,4 @@ const Items = [
 	},
 ];
 
-export default Menu;
+export default Items;
