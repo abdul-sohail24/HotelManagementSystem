@@ -1,4 +1,5 @@
 import React from "react";
+import Hotel from "./react_component/basic/hotel";
 
 // functional component
 
@@ -15,17 +16,18 @@ const App = () => {
 	// fat arrow function (=>)
 	return (
 		<>
-			<MyName />
-			<h2 className="hello">Christian Bale {2 + 5} </h2>
+			<Hotel />
+			{/* <MyName /> */}
+			{/* <h2 className="hello">Christian Bale {2 + 5} </h2> */}
 			{/* Js is written in curly braces */}
-			<MyName />
+			{/* <MyName /> */}
 		</>
 	);
 };
 
 // const keyword
-const MyName = () => {
-	return <h3>I'm Iron Man</h3>;
-};
+// const MyName = () => {
+// 	return <h3>I'm Iron Man</h3>;
+// };
 
 export default App;
