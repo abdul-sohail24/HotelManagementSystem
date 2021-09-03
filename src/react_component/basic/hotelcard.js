@@ -13,20 +13,19 @@ const Hotelcard = ({ menuData }) => {
 							<div className="card-container">
 								<div className="card">
 									<div className="card-body">
-										<span className="card-number card-circle subtle">1</span>
-										<span className="card-author subtle" style={myStyle}>
-											Breakfast
+										<span className="card-number card-circle subtle">
+											{curElem.id}
 										</span>
-										<h3 className="card-title"> Maggie </h3>
+										<span className="card-author subtle" style={myStyle}>
+											{curElem.category}
+										</span>
+										<h3 className="card-title"> {curElem.name} </h3>
 										<span className="card-description subtle">
-											Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-											Alias, optio repellat veritatis officiis earum quae,
-											tempora dignissimos necessitatibus ipsam id incidunt amet,
-											corrupti provident quidem vel molestias eaque. Ut, cum.
+											{curElem.description}
 										</span>
 										<div className="card-read"> Read </div>
 									</div>
-									<img src="{image}" alt="" className="card-media" />
+									<img src={curElem.image} alt="" className="card-media" />
 
 									<span className="card-tag subtle">Order Now</span>
 								</div>
