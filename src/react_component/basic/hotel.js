@@ -3,6 +3,16 @@ import "./style.css";
 import Items from "./hotelapi";
 import Hotelcard from "./hotelcard";
 
+const uniqueList = [
+	...new Set(
+		Items.map((curElem) => {
+			return curElem.category;
+		})
+	),
+]; //spread operator : ... (for converting into Array)
+
+console.log(uniqueList);
+
 const Hotel = () => {
 	// Hooks should always be at Top
 	const [menuData, setMenuData] = useState(Items);
@@ -52,6 +62,7 @@ const Hotel = () => {
 				</div>
 			</nav>
 			<Hotelcard menuData={menuData} />
+			{/* Props */}
 		</>
 	);
 };
