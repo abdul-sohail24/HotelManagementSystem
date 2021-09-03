@@ -12,7 +12,7 @@ const Items = [
 	{
 		id: 2,
 		image: "images/allupakoida.jpg",
-		name: "allu pakoida",
+		name: "allu pakoda",
 		category: "evening",
 		price: "20₹",
 		description:
@@ -75,8 +75,17 @@ const Items = [
 	{
 		id: 9,
 		image: "../images/samosa.jpg",
-		name: "samaso",
+		name: "samosa",
 		category: "evening",
+		price: "10₹",
+		description:
+			"Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis, at consectetur totam voluptatibus quibusdam iusto. Accusamus quas, soluta ipsam autem eius necessitatibus fugiat in . ",
+	},
+	{
+		id: 10,
+		image: "../images/samosa.jpg",
+		name: "Ice Cream",
+		category: "desert",
 		price: "10₹",
 		description:
 			"Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis, at consectetur totam voluptatibus quibusdam iusto. Accusamus quas, soluta ipsam autem eius necessitatibus fugiat in . ",
