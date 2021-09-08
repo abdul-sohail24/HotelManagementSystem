@@ -1,7 +1,7 @@
 const Items = [
 	{
 		id: 1,
-		image: "images/magg.jpg",
+		image: "images/maggi.jpg",
 		name: "maggi",
 		category: "breakfast",
 		price: "12₹",
